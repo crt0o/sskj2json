@@ -1,6 +1,6 @@
 # Structure
 
-The product json file is structured as an array of objects which represent the entries from the dictionary. They generally come in 2 forms:
+The product json file is structured as an array of objects which represent entries from the dictionary. They generally come in 2 forms:
 
 ## Ordinary entries
 
@@ -16,7 +16,7 @@ The product json file is structured as an array of objects which represent the e
 | `accent` | The possible pitch accents (`[]` if none are listed) | `string[]` |
 | `forms` | The additional forms (`[]` if none are listed) | `string[]` |
 | `qualifiers` | Any style qualifiers (`[]` if none are listed) | `string[]` |
-| `pronounciation` | Possible pronounciations (`[]` if none are listed) | `string[]` |
+| `pronunciation` | Possible pronunciations (`[]` if none are listed) | `string[]` |
 | `header_plain` | The entire unprocessed header | `string` |
 
 ## Redirect entries
@@ -66,4 +66,4 @@ The product json file is structured as an array of objects which represent the e
 
 # Notes
 
-The scraper currently only extracts the word name and the header. I will possibly add support for the explanations too.
+The scraper currently only extracts the word name and header. I will possibly add support for explanations later.
